@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/play_now-style.css">
+    <script src="../JS/jquery-3.5.1.js"></script>
+    <title>Play Now</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <div>
+                <ul>
+                    <li><a href="./home.html"><img src="../Asset/home.png" alt="Home">HOME</a></li>
+                    <li><a href="./screenshot.html"><img src="../Asset/screenshot.png" alt="Screenshots">SCREENSHOTS</a></li>
+                    <li id="events"><a href="./events.html"><img src="../Asset/event.png" alt="Events">EVENTS</a></li>
+                    <li><a href="./characters.html"><img src="../Asset/characters.png" alt="Characters">CHARACTERS</a></li>
+                    <li><a href="./play-now.html"><img src="../Asset/play_now.png" alt="Play Now">PLAY NOW</a></li>
+                </ul>
+            </div>
+            <div class="sub-events">
+                <ul>
+                    <li><a href="./frawlcome.html">Frawlcome</a></li>
+                    <li><a href="./TDoN.html">The Darkest of Nights</a></li>
+                    <li><a href="./CM.html">Cyber Madness</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="termsBox">
+        <div id="termsContent">
+            <span class="close">&times;</span>
+            <h2>Terms and Conditions</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laudantium optio, fuga neque nostrum ad architecto odio excepturi aspernatur, quisquam labore eos asperiores consequuntur beatae voluptatibus saepe illo placeat! Sunt minima molestiae nobis provident nihil error eveniet facilis vitae dolores veritatis id quaerat eum, omnis quas mollitia aliquam cupiditate aliquid magnam voluptate, earum assumenda sit sint iusto! Laboriosam quos facilis, consequatur optio rem molestiae aperiam officia nihil vero id adipisci, totam saepe corporis accusantium tempore error ab. Asperiores cumque, perferendis corrupti nesciunt impedit placeat velit, dolorum nisi ipsum iste eveniet facilis unde dignissimos earum deleniti aliquid fuga maxime animi voluptas dicta tempore rerum, non cupiditate. Libero iure corporis harum deserunt inventore voluptate voluptatum vitae nisi quam quaerat soluta, esse, repellendus velit, quidem modi consequuntur laborum? Sequi sint asperiores ut. Nihil optio magni accusantium repudiandae eveniet harum doloribus odit necessitatibus. Nesciunt assumenda officiis enim, ducimus corrupti possimus? Voluptatum sint, fugiat corrupti ullam pariatur nam aliquid numquam nostrum dolor ratione totam quos ea adipisci aliquam beatae magni consequuntur quidem suscipit eligendi iusto ducimus, delectus qui facere labore. Modi, ea. Tempora possimus quaerat molestias harum. Modi facilis alias, assumenda quidem natus optio odio quis sit voluptates, tempore saepe hic deserunt consectetur fugiat perspiciatis! Quod est porro dolores, sit culpa eligendi, eaque, quisquam itaque impedit architecto dignissimos nesciunt eum animi voluptates nemo in incidunt similique at fugit! Nesciunt error amet consequatur? Accusantium aspernatur vel reiciendis itaque dicta. Reprehenderit asperiores quia, iste saepe eos esse veritatis architecto dolorum est dignissimos animi dolores maiores quae necessitatibus, ratione voluptatum sapiente molestias beatae nulla nihil ad? Itaque, nisi minima? Dignissimos voluptas iure repellendus, aliquam soluta dicta corrupti eveniet suscipit omnis temporibus nemo, iusto consequatur rerum eaque sunt eligendi. Itaque consequatur quis laudantium provident? Eveniet dolore voluptatibus possimus accusamus, sit quod sunt enim sint aspernatur at rem obcaecati illo.</p>
+        </div>  
+    </div>
+
+    <header>
+        <div>
+            <img id = "btnMenu" src="../Asset/burgerButton.png" alt="">
+            <div class="logo">
+                <img src="../Asset/frawlsalla_logo.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <div class="scrollUp">
+        <button id="btnScrollUp">
+            <img src="../Asset/up_arrow.png" alt="Scroll Up">
+        </button>
+    </div>
+
+    <div class="content">
+        <div class="context1">
+            <img src="../Asset/character.png" alt="Character">
+        </div>
+        <div class="context2">
+            <h1>REGISTER</h1>
+            <form action="./play-now.html">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="name" id="txtName" placeholder="Name">
+                <br>
+                <label for="" class="errMsg" id="errName"></label>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="txtEmail" placeholder="Email">
+                <br>
+                <label for="" class="errMsg" id="errEmail"></label>
+                <br>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" name="password" id="txtPassword" placeholder="Password">
+                <br>
+                <label for="" class="errMsg" id="errPassword"></label>
+                <br>
+                <label for="gender">Gender</label>
+                <br>
+                <input type="radio" name="gender" class="rbtGender" value="Male">
+                <label for="">Male</label>
+                <br>
+                <input type="radio" name="gender" class="rbtGender" value="Female">
+                <label for="">Female</label>
+                <br>
+                <label for="" class="errMsg" id="errGender"></label>
+                <br>
+                <input type="checkbox" name="terms" id="chkTerms">
+                <label for="terms" id="lblTerms">Terms and Conditions</label>
+                <br>
+                <label for="" class="errMsg" id="errTerms"></label>
+                <br><br>
+                <div>
+                    <input type ="submit" id="btnRegister" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        Our Social Media
+        <div class="social-media">
+            <a href="https://www.facebook.com/" target="_blank"><img src="../Asset/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../Asset/instagram.png" alt=""></a>
+            <a href="https://twitter.com/" target="_blank"><img src="../Asset/twitter.png" alt=""></a>
+        </div>
+        © 2021 Frawlsalla. All Rights Reserved.
+        <div class="privacy-etc">
+            <a href="">Privacy Notice</a>
+            <a href="">Terms of Service</a>
+            <a href="">Cookie Preferences</a>
+        </div>
+    </footer>
+
+    <script src="../JS/script.js"></script>
+    <script src="../JS/play_now-script.js"></script>
+</body>
+</html>

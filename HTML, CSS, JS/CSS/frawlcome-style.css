@@ -1,0 +1,69 @@
+.frawlcome {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 200px 0;
+}
+
+.frawlcome-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.frawlcome-header h1 {
+    color: #9e2b1a;
+    margin-bottom: 30px;
+}
+
+.frawlcome-header img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.frawlcome-header span {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.frawlcome-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.frawlcome-content p {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .frawlcome {
+        margin: 40px;
+        margin-bottom: 0px;
+    }
+
+    .frawlcome-header h1 {
+        font-size: 26px;
+        margin-top: -10px;
+    }
+
+    .frawlcome-header img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .frawlcome-header span {
+        font-size: 18px;
+    }
+
+    .frawlcome-content p {
+        font-size: 16px;
+    }
+
+    .frawlcome-content {
+        justify-content: space-between;
+    }
+}

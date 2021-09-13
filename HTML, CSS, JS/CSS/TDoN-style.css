@@ -1,0 +1,70 @@
+.TDoN {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 200px 0;
+}
+
+.TDoN-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.TDoN-header h1 {
+    color: #9e2b1a;
+    margin-bottom: 30px;
+}
+
+.TDoN-header img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.TDoN-header span {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.TDoN-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.TDoN-content p {
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .TDoN {
+        margin: 40px;
+        margin-bottom: 0px;
+    }
+
+    .TDoN-header h1 {
+        font-size: 26px;
+        margin-top: -10px;
+    }
+
+    .TDoN-header img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .TDoN-header span {
+        font-size: 18px;
+    }
+
+    .TDoN-content p {
+        font-size: 16px;
+    }
+
+    .TDoN-content {
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,137 @@
+.play-now-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6vw;
+}
+
+.play-now-btn button {
+  width: 17vw;
+  height: 4vw;
+  background-color: #af301d;
+  color: #fefffe;
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.5vw;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+}
+
+.content-home{
+  display: flex;
+  justify-content: center;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+
+.content-home img{
+  height: 20vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.content-description{
+  display: flex;
+  flex-direction: column;
+  width: 35.5vw;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.content-description h1{
+  font-weight: 800;
+  font-size: 3vw;
+}
+
+.content-description p{
+  margin-top: 1vw;
+  line-height: 1.5;
+  font-size: 1.111vw;
+}
+
+.title-1{
+  color: #c9511c;
+}
+
+.title-2{
+  color: #9c2b19;
+}
+
+.image-slider{
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1vw;
+  margin-bottom: 4vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.images{
+  display: flex;
+  width: 60vw;
+  overflow: hidden;
+}
+
+.pict{
+  width: 60vw;
+  height: 30vw;
+  object-fit: cover;
+}
+
+.images h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  color: #af301d;
+}
+
+.button{
+  font-size: 1vw;
+  font-weight: bold;
+  height: 3vw;
+  width: 3vw;
+  border-radius: 50%;
+}
+
+.title-event{
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9c2b19;
+  margin-top: 6vw;
+  font-size: 3vw;
+}
+
+/* ini abstrak rectangle nya */
+/* mainin height kalo terlalu gede */
+
+.container-rectangle{
+  width: 100%;
+  height: 70vw;
+  position: absolute;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.rectangle {
+  width: 130vw;
+  height: 47vw; 
+  background-color: #faad81;
+  transform: rotate(8deg) translate(-100px, 0px);
+  position: absolute;
+  z-index: -1;
+  margin-top: 4vw;
+}
+
