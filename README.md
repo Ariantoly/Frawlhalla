@@ -1,5 +1,5 @@
 # Frawlhalla
-Front-End of Frawlhalla Website (Human Computer and Interaction Assignment)
+Front-End of Frawlhalla Website (Human Computer and Interaction Project)
 
 This is an assignment of Human Computer and Interaction Lab Class.
 
