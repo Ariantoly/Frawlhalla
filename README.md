@@ -5,4 +5,4 @@ This is a group project of Human Computer and Interaction Lab Class by Ariantoly
 
 This is a "Frawlsalla" game website with front-end only.
 
-Website Demo: ariantoly.github.io/Frawlsalla/HTML/Home
+Website Demo: http://www.ariantoly.github.io/Frawlsalla/HTML/Home
